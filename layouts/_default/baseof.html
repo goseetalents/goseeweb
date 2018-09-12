@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Gosee</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
+  {{partial "head" .}}
 <body>
-
   {{ partial "navbar" .}}
-  
   {{ block "main" . }} 
-  {{ end }} 
-  
-  {{block "footer" .}}
-  {{end}}
-
+  {{ end }}   
+  {{ block "footer" . }}
+  {{ end}}
 </body>
 
 </html>

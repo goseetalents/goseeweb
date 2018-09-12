@@ -1,7 +1,7 @@
 <div class="navbar" id="navbar">
   <div class="menu">
-    {{range $.Site.Menus.main}}
-    <a href="#news">{{.Name}}</a>
+    {{ range $.Site.Menus.main}}
+    <a href="{{ .URL }}">{{ .Name }}</a>
     {{end}}
   </div>
   <a href="javascript:void(0);" class="icon" onclick="navToggle()">MENU</a>
