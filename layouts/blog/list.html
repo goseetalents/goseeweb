@@ -1,0 +1,11 @@
+{{define "main"}}
+<h1>BLOG HELLO LIST</h1>
+  {{ range .Pages}}
+  <p>{{ . }}</p>
+  <a href="{{ .URL }}">{{ .Title}}</a>
+  {{end}} 
+{{end}} 
+
+{{ define "footer"}}
+<h2>BLOG LIST PAGE FOOTER</h2>
+{{end}}

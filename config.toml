@@ -1,0 +1,17 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Go See Talents"
+baseurl = "/"
+themesDir = "../.."
+[permalinks]
+  post = "/:year/:month/:day/:slug/"   
+[[menu.main]]
+    name = "AboutUs"
+    url = "/aboutus/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 1
+[[menu.main]]
+    name = "Home"
+    url = "/home/"
+    pre = "<i class='now-ui-icons business_bank'></i>"
+    weight = 2

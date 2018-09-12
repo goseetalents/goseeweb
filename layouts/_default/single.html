@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ .Content }}
+{{ end }} 
+
+{{ define "footer"}}
+  {{ partial "base_footer" (dict "extraKey" "extraKeyDataSinglePage" "content" .) }}
+{{end}}

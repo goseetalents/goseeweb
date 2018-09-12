@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+
+<body>
+  {{ partial "navbar" . }}
+  <hr>
+  <h1>HOME PAGE CONTENT</h1>
+  <hr> {{ partial "base_footer" (dict "extraKey" "extraKeyData" "page" .)}}
+
+</body>
+
+</html>
